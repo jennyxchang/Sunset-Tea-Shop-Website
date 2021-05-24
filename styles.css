@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(223, 243, 223);
+}
+
+.header {
+    background-image: url("./images/header-background.jpg");
+    background-position: 100% 76%;
+    background-size: 110%;
+    padding: 40px;
+    position: relative;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    color:white;
+}
+
+#header-img {
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#header-img a {
+    color: white;
+}
+
+.navbar .container-fluid {
+    background-color: teal;
+    font-size: 25px;
+}
+
+footer {
+    background-color: teal;
+    font-size: 20px;
+    color: white;
+}
+
+footer p {
+    position: relative;
+    left: 20px;
+}
+
+#carousel-slide {
+    margin: auto;
+    width: 50%;
+}
+
+.carousel-inner .caption {
+    background-color: black;
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.carousel-inner .caption a {
+    color: white;
+}
+
+.carousel-inner h3 {
+    font-size: 15px;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+#reviews-box {
+    text-align: center;
+}
+
+.scroll-box {
+    background-color: white;
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+#menu {
+    text-align: center;
+}
+
+.menu-items {
+    width: 70%;
+    margin: auto;
+}
+
+.menu-names {
+    color: black;
+    font-size: 16px;
+}
+
+.button {
+    background-color: rgb(0, 65, 65);
+}
+
+#contactInfo {
+    font-size: 20px;
+}

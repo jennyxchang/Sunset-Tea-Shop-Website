@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Sunset Tea Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Sunset Tea Shop</h1>
+        <cite id="header-img">Photo by Sergey Norkov on <a
+                href="https://unsplash.com/photos/dn8nonS2doQ">Unsplash</a>.</cite>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav text-center ms-auto">
+                    <a class="nav-link active px-5" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link px-5" href="about.html">About</a>
+                    <a class="nav-link px-5" href="menu.html">Menu</a>
+                    <a class="nav-link px-5" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="carousel-slide" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-slide" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-slide" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-slide" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./images/carousel-img1.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block caption">
+                        <h3>A quiet place to relax and have tea.</h3>
+                        <cite>Photo by Thought Catalog on <a
+                                href="https://unsplash.com/photos/OJZB0VUQKKc">Unsplash</a>.</cite>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/carousel-img2.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block caption">
+                        <h3>Our tea leaves are harvested from mountains all over the world.</h3>
+                        <cite>Photo by Paul-Vincent Roll on <a
+                                href="https://unsplash.com/photos/c61jL_NpAn8">Unsplash</a>.</cite>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/carousel-img3.jpg" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block caption">
+                        <h3>Enjoy your tea with pastries and desserts.</h3>
+                        <cite>Photo by Joanna Kosinska on <a
+                                href="https://unsplash.com/photos/9WNi3OTzqtI">Unsplash</a>.</cite>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-slide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-slide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2 id="reviews-box">Customer Reviews</h2>
+    <div class="container scroll-box">
+        <ul>
+            <li>Ben H.<br>- I had a good experience with the service here!</li>
+            <li>Jane W.<br>- The tea was good and I enjoyed the atmosphere.</li>
+            <li>Lynn A.<br>- I like the decorations inside the tea shop!</li>
+            <li>Ken L.<br>- The aroma from the tea is amazing.</li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <p>Sunset Tea Shop
+            <br>Store Hours: Monday-Sunday 9am-10pm
+            <br>Address: 1234 Sunset Ave,
+            <br>Corvallis, Oregon 97331
+            <br>Phone: 123-456-7890
+            <br>Email: sunsetteashop@email.com
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
